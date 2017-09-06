@@ -1,0 +1,44 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>고.전</title>
+</head>
+<body>
+
+
+{% for song in songs %}
+
+<div class="ui card">
+  <div class="image">
+{#    <img src="/images/avatar2/large/kristy.png">#}
+  </div>
+  <div class="content">
+    <a class="header"> {{ song.title }}</a>
+    <div class="meta">
+      <span class="date">Joined in 2013</span>
+    </div>
+    <div class="description">
+      {{ song.content }}
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      <a href="{{ song.song_url }}">노래다운받기</a>
+    </a>
+  </div>
+</div>
+
+{% endfor %}
+
+
+</body>
+</html>
