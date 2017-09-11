@@ -5,3 +5,7 @@ from .models import CheerioSong
 def song_list(request) :
     songs = CheerioSong.objects.all()
     return render(request,'hci/song_list.html',{'songs': songs})
+
+
+def main(request) :
+    return render(request,'hci/main.html')
