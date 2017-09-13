@@ -1,0 +1,48 @@
+{% extends 'hci/base.html' %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'container.css' %}">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>고.전</title>
+</head>
+<body>
+
+{% block content %}
+
+    <div class="ui four column doubling stackable grid container">
+        {% for song in songs %}
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                    </div>
+                    <div class="content">
+                        <a class="header"> {{ song.title }}</a>
+                        <div class="meta">
+                            <span class="date">2014 대박 신곡</span>
+                        </div>
+                        <div class="description">
+                            {{ song.content }}
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <i class="user icon"></i>
+                        <a href="{{ song.song_url }}">노래다운받기</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+{% endblock %}
+</div>
+
+</body>
+</html>
