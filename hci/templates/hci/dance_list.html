@@ -19,23 +19,20 @@
 {% block content %}
 
     <div class="ui four column doubling stackable grid container">
-        {% for song in songs %}
+        {% for dance in dances %}
             <div class="column">
                 <div class="ui card">
                     <div class="image">
                     </div>
                     <div class="content">
-                        <a class="header"> {{ song.title }}</a>
-                        <div class="meta">
-                            <span class="date">2014 대박 신곡</span>
+                        <a class="header"> {{ dance.title }}</a>
+                        <div id="player">
                         </div>
-                        <div class="description">
-                            {{ song.content }}
-                        </div>
+
                     </div>
                     <div class="extra content">
                         <i class="user icon"></i>
-                        <a href="{{ song.song_url }}">노래다운받기</a>
+                        <a href="https://www.youtube.com{{ dance.video_url }}" >유튜브에서보기</a>
                     </div>
                 </div>
             </div>
@@ -45,4 +42,18 @@
 </div>
 
 </body>
+
+{#<script>#}
+{#    var tag = document.createElement('script');#}
+{#    tag.src = "https://www.youtube.com/iframe_api";#}
+{#    var firstScriptTag = document.getElementsByTagName('script')[0];#}
+{#    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);#}
+{#    var player;#}
+{##}
+{#    function onYouTubeIframeAPIReady() {#}
+{#        player = new YT.Player('player', {#}
+{#            videoId: '{{ dance.video_url }}'#}
+{#        });#}
+{#    }#}
+{#</script>#}
 </html>

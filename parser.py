@@ -17,6 +17,6 @@ for tag in soup.find_all('h3', {'class': 'yt-lockup-title'}):
         href, title = a_tag.get('href'), a_tag.get('title')
         if 'watch' in href:
             # print([href,title])
-            CheerioDance.objects.create(title=title, video_url='https://www.youtube.com'+href)
+            CheerioDance.objects.create(title=title, video_url=href.replace('/watch?v=',''))
 
-# 그냥 manage.py에서 실행함
+# 그냥 manage.py - shell에서 실행함

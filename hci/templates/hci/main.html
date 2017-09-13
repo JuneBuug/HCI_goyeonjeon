@@ -23,29 +23,29 @@
 
     <div class="text container">
         <table class="ui celled table">
-  <thead>
-    <tr>
-      <th>연도</th>
-      <th>승리</th>
-      <th>비고</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for score in scores %}
-        <tr>
-            <td>{{ score.year }}</td>
-            {% if "고려대" in score.score %}
-                <td class="positive"><i class="icon checkmark"></i>{{ score.score }}</td>
-            {% elif "연세대" in score.score %}
-                <td class="negative">{{ score.score }}</td>
-            {% else %}
-                <td>{{ score.score }}</td>
-            {% endif %}
-            <td>{{ score.etc }}</td>
-        </tr>
-    {% endfor %}
-  </tbody>
-</table>
+            <thead>
+            <tr>
+                <th>연도</th>
+                <th>승리</th>
+                <th>비고</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for score in scores %}
+                <tr>
+                    <td>{{ score.year }}</td>
+                    {% if "고려대" in score.score %}
+                        <td class="positive"><i class="icon checkmark"></i>{{ score.score }}</td>
+                    {% elif "연세대" in score.score %}
+                        <td class="negative">{{ score.score }}</td>
+                    {% else %}
+                        <td>{{ score.score }}</td>
+                    {% endif %}
+                    <td>{{ score.etc }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
     </div>
 {% endblock %}
 </body>
