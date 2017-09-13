@@ -42,20 +42,39 @@
                 <th>축구_고대</th>
                 <th>축구_연대</th>
                 <th>축구_결과</th>
+                <th>종합_고대</th>
+                <th>종합_무승부</th>
+                <th>종합_연대</th>
+                <th>종합_결과</th>
             </tr>
             </thead>
             <tbody>
             {% for score in scores %}
                 <tr>
                     <td>{{ score.year }}</td>
-                    {% if "고려대" in score.score %}
-                        <td class="positive"><i class="icon checkmark"></i>{{ score.score }}</td>
-                    {% elif "연세대" in score.score %}
-                        <td class="negative">{{ score.score }}</td>
+                    <td>{{ score.baseball_k }}</td>
+                    <td>{{ score.baseball_y }}</td>
+                    <td>{{ score.baseball_r }}</td>
+                    <td>{{ score.baseketball_k }}</td>
+                    <td>{{ score.baseketball_y }}</td>
+                    <td>{{ score.baseketball_r }}</td>
+                    <td>{{ score.ice_k }}</td>
+                    <td>{{ score.ice_y }}</td>
+                    <td>{{ score.ice_r }}</td>
+                    <td>{{ score.football_k }}</td>
+                    <td>{{ score.football_y }}</td>
+                    <td>{{ score.football_r }}</td>
+                    <td>{{ score.soccer_k }}</td>
+                    <td>{{ score.soccer_y }}</td>
+                    <td>{{ score.soccer_r }}</td>
+                    <td>{{ score.total_k }}</td>
+                    <td>{{ score.total_tie }}</td>
+                    <td>{{ score.total_y }}</td>
+                    {% if "승" in score.total_r %}
+                        <td class="positive"><i class="icon checkmark"></i> {{ score.total_r }}</td>
                     {% else %}
-                        <td>{{ score.score }}</td>
+                        <td>{{ score.total_r }}</td>
                     {% endif %}
-                    <td>{{ score.etc }}</td>
                 </tr>
             {% endfor %}
             </tbody>

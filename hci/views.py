@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import CheerioSong,Scoring,CheerioDance
+from .models import CheerioSong,CheerioDance,Score
 # Create your views here.
 
 def song_list(request) :
@@ -11,10 +11,9 @@ def dance_list(request) :
     return render(request,'hci/dance_list.html',{'dances': dances})
 
 def main(request) :
-    scores = Scoring.objects.all()
+    scores = Score.objects.all()
     return render(request,'hci/main.html',{'scores':scores})
 
-
 def history(request) :
-    scores = Scoring.objects.all()
+    scores = Score.objects.all()
     return render(request,'hci/history.html',{'scores':scores})
