@@ -18,34 +18,41 @@
 {% block content %}
 
     <div class="container">
-        <img class="ui centered fluid image" src="{% static 'image/koyon-jeon.png' %}" style="width:80%"/>
+        <img class="ui centered fluid image" src="{% static 'image/koyon-jeon.png' %}" style="width:60%"/>
     </div>
 
-    <div class="text container">
-        <table class="ui celled table">
-            <thead>
-            <tr>
-                <th>연도</th>
-                <th>승리</th>
-                <th>비고</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for score in scores %}
-                <tr>
-                    <td>{{ score.year }}</td>
-                    {% if "고려대" in score.score %}
-                        <td class="positive"><i class="icon checkmark"></i>{{ score.score }}</td>
-                    {% elif "연세대" in score.score %}
-                        <td class="negative">{{ score.score }}</td>
-                    {% else %}
-                        <td>{{ score.score }}</td>
-                    {% endif %}
-                    <td>{{ score.etc }}</td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+    <div class="ui inverted segment" style="width:80%; margin:auto; padding:10px">
+        <!-- 경기명 상단 -->
+        <div class="ui inverted statistic" style="display: flex; justify-content: center;">
+            <div class="text value">
+                아이스하키
+            </div>
+            <div class="label">
+                현재 경기
+            </div>
+        </div>
+
+        <div class="ui inverted statistics" style="display: flex;flex-direction: row; justify-content: center;">
+            <div class="ui red inverted two statistic">
+                <div class="value">
+                    <img src="{% static 'image/ic_korea.jpg' %}" class="ui circular inline image">
+                    42
+                </div>
+                <div class="label">
+                    고려대
+                </div>
+            </div>
+
+            <div class="ui blue inverted statistic">
+                <div class="value">
+                    <img src="{% static 'image/ic_yonsei.png' %}" class="ui circular inline image">
+                    12
+                </div>
+                <div class="label">
+                    연세대
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 </body>
