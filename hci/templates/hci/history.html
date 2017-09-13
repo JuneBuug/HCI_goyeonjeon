@@ -1,0 +1,66 @@
+{% extends 'hci/base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'container.css' %}">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{% block content %}
+
+    <div class="ui raised very padded text container segment" style="margin-top:7em">
+        <h2 class="ui header">고연전의 역사</h2>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="text container">
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th>연도</th>
+                <th>야구_고대</th>
+                <th>야구_연대</th>
+                <th>야구_결과</th>
+                <th>농구_고대</th>
+                <th>농구_연대</th>
+                <th>농구_결과</th>
+                <th>빙구_고대</th>
+                <th>빙구_연대</th>
+                <th>빙구_결과</th>
+                <th>럭비_고대</th>
+                <th>럭비_연대</th>
+                <th>럭비_결과</th>
+                <th>축구_고대</th>
+                <th>축구_연대</th>
+                <th>축구_결과</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for score in scores %}
+                <tr>
+                    <td>{{ score.year }}</td>
+                    {% if "고려대" in score.score %}
+                        <td class="positive"><i class="icon checkmark"></i>{{ score.score }}</td>
+                    {% elif "연세대" in score.score %}
+                        <td class="negative">{{ score.score }}</td>
+                    {% else %}
+                        <td>{{ score.score }}</td>
+                    {% endif %}
+                    <td>{{ score.etc }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+</body>
+</html>

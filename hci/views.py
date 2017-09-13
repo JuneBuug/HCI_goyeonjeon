@@ -13,3 +13,8 @@ def dance_list(request) :
 def main(request) :
     scores = Scoring.objects.all()
     return render(request,'hci/main.html',{'scores':scores})
+
+
+def history(request) :
+    scores = Scoring.objects.all()
+    return render(request,'hci/history.html',{'scores':scores})
