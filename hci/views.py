@@ -1,3 +1,6 @@
+import json
+
+from django.http import HttpResponse
 from django.shortcuts import render
 from .models import CheerioSong,CheerioDance,Score,Match
 # Create your views here.
@@ -17,3 +20,19 @@ def main(request) :
 def history(request) :
     scores = Score.objects.all()
     return render(request,'hci/history.html',{'scores':scores})
+
+
+def main_data(request):
+    matches = Match.objects.all().order_by('updated_titme').reverse()
+    result = []
+
+    for match in matches.all():
+        result.append({
+            'name_kr': match.name_kr,
+            'name_en': match.name_en,
+            'score_kr': match.score_kr,
+            'score_ys': match.score_ys
+        })
+    result = json.dumps(result)
+
+    return HttpResponse(result)

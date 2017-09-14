@@ -12,6 +12,7 @@
     <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
     <meta charset="UTF-8">
     <title>Title</title>
+
 </head>
 <body>
 
@@ -22,24 +23,29 @@
         <img class="ui centered fluid image" src="{% static 'image/ko-yon-jeon.png' %}" style="width:80%;margin-top:4em;margin-bottom:4em;"/>
     </div>
 
+
     {% for match in matches %}
     <div class="ui inverted segment" style="width:80%; margin:auto; padding:10px; margin-top:4em">
         <!-- 경기명 상단 -->
         <div class="ui inverted statistic" style="display: flex; justify-content: center;">
-            {%  if forloop.counter0 == 0 %}
-            <p style="color: white" style="display: flex; flex-direction: column; justify-content: center;">현재 경기</p>
+            {% if forloop.counter0 == 0 %}
+                <div style="display: flex; flex-direction: row; ">
+                <p style="color: white" >현재 경기</p>
+                <button class="ui inverted yellow button" style="width: 16%; height: 10%; margin-left: 2%; font-size: 0.8em"> 업데이트
+                </button>
+                </div>
             {% endif %}
             <div class="text value" style="display: flex; flex-direction: column; justify-content: center;">
                 {{ match.name_kr }}
             </div>
-            <div class="label">
+            <div class="label en">
                 {{ match.name_en }}
             </div>
         </div>
 
         <div class="ui inverted statistics" style="display: flex;flex-direction: row; justify-content: center;">
             <div class="ui red inverted two statistic">
-                <div class="value">
+                <div class="value kr">
                     <img src="{% static 'image/ic_korea.jpg' %}" class="ui circular inline image">
                     {{ match.score_kr }}
                 </div>
@@ -49,7 +55,7 @@
             </div>
 
             <div class="ui blue inverted statistic">
-                <div class="value">
+                <div class="value ys">
                     <img src="{% static 'image/ic_yonsei.png' %}" class="ui circular inline image">
                     {{ match.score_ys }}
                 </div>
@@ -65,5 +71,58 @@
     <p style="color: white">뒷풀이 정보</p>
     </div>
 {% endblock %}
+{% block javascript %}
+    <script>
+    $(document).ready(function(){
+
+    });
+	$(".yellow").click(function() {
+		$.ajax({
+			dataType: "json",
+			url: "{% url 'hci:main_data'%}"
+		}).done(function(data) {
+
+            var textValue = $(".text");
+			console.log(data);
+			var dataList = '';
+
+            for (var i = 0; i < data.length; i++) {
+                $(".text").each(function (index) {
+                    if (i === index) {
+                        $(this).html(data[i].name_kr)
+                    }
+                });
+
+                $(".en").each(function (index) {
+                    if (i === index) {
+                        $(this).html(data[i].name_en)
+                    }
+                });
+
+                $(".kr").each(function (index) {
+                    if (i === index) {
+                        $(this).html('<img src="static/image/ic_korea.jpg" class="ui circular inline image">'+data[i].score_kr)
+                    }
+                });
+
+                $(".ys").each(function (index) {
+                    if (i === index) {
+                        $(this).html('<img src="static/image/ic_yonsei.png" class="ui circular inline image">'+data[i].score_ys)
+                    }
+                });
+
+            }
+
+
+
+		}).fail(function() {
+			console.log("Failed fetching data");
+		});
+	})
+</script>
+{% endblock %}
 </body>
+
+
+
 </html>
