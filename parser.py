@@ -4,7 +4,7 @@ from hci.models import CheerioDance
 
 
 # HTTP GET Request
-req = requests.get('https://www.youtube.com/results?search_query=%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90+%EC%9D%91%EC%9B%90%EB%8B%A8')
+req = requests.get('https://www.youtube.com/results?search_query=%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90+%EC%9D%91%EC%9B%90%EB%8B%A8+%EC%98%A8%EB%9D%BC%EC%9D%B8+%EC%9D%91%EC%9B%90OT')
 
 html = req.text
 
