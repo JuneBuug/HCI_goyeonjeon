@@ -27,15 +27,14 @@
                     <div class="content">
                         <a class="header"> {{ song.title }}</a>
                         <div class="meta">
-                            <span class="date">2014 대박 신곡</span>
+
                         </div>
                         <div class="description">
                             {{ song.content }}
                         </div>
                     </div>
-                    <div class="extra content">
-                        <i class="user icon"></i>
-                        <a href="{{ song.song_url }}">노래다운받기</a>
+                    <div class="extra content" style="display: flex; justify-content: center">
+                         <audio src="{{ song.song_url }}" controls=""  preload="auto" style="width:90%"></audio>
                     </div>
                 </div>
             </div>
