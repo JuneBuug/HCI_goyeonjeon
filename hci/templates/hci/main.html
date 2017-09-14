@@ -49,7 +49,7 @@
                     {{ match.score_kr }}
                 </div>
                 <div class="label">
-                    고려대
+                    고려대 Korea
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                     {{ match.score_ys }}
                 </div>
                 <div class="label">
-                    연세대
+                    연세대 Yonsei
                 </div>
             </div>
         </div>
@@ -69,7 +69,15 @@
     {% endfor %}
 
     <div class="ui inverted segment second" style="width:80%; margin:auto; margin-top: 4em; padding:10px">
-    <p style="color: white">뒷풀이 정보</p>
+        <a class="ui yellow empty circular label"></a>
+        <span style="color: white">뒷풀이 정보 Post Party Info</span>
+        <div class="ui inverted divider"></div>
+        <p style="color: white">이번 고연전 메인 기차놀이는
+        <span class="ui yellow horizontal label">신촌</span>
+        일대에서 진행됩니다.</p>
+        <p style="color: white">Post party of Ko-yeon-jeon will be held around
+        <span class="ui yellow horizontal label">Shin-chon</span>
+        this year.</p>
     </div>
 {% endblock %}
 {% block javascript %}
@@ -129,7 +137,7 @@
 		});
 	})
 
-    if (Date.now() > Date.parse('09/15/2017 06:02:10')) {
+    if (Date.now() > Date.parse('09/15/2017 06:32:10')) {
 	    $(".second").insertAfter(".container.main-image");
     }
 

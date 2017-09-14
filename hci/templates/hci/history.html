@@ -17,19 +17,30 @@
 
 {% block content %}
 
-    <div class="ui raised very padded text container segment" style="margin-top:7em">
-        <h2 class="ui header">고연전의 역사</h2>
-        <p></p>
-        <p></p>
+    <div class="ui inverted segment second" style="width:80%; margin:auto; margin-top: 4em; padding:10px">
+        <a class="ui red empty circular label"></a>
+        <span style="color: white">정기 고연전 About Ko-yeon-Jeon</span>
+        <div class="ui inverted divider"></div>
+        <p style="color: white">매년 가을 금요일과 토요일에 개최되는
+고려대와 연세대의 스포츠 친선경기</p>
+        <p style="color: white">일제 강점기, 민족의 양대 사학이던 보성전문학교와 연희전문학교의 체육경기로 시작한 고연전은 80여년의 세월을 지켜오면서 양교 학생뿐만 아니라 온 국민의 축제로 자리매김하였다.
+        </p>
+     <p style="color: white">5개 종목(축구, 야구, 농구, 럭비, 아이스하키)의 스포츠 경기를 통해 양교의 우의를 돈독히 하고 대학 스포츠의 선도적 역할을 해내고 있다.</p>
+     <div class="ui inverted divider"></div>
+        <p style="color: white">Friendly Match between Korea Univ. and Yonsei Univ held in every Fall</p>
+        <p style="color: white">Starting as a sports match between Boseong College and Yoonhee College, which were two prominent colleges in the period of Japanese occupation, Ko-Yeon-Jeon has been 80 years, getting settled as a festival of whole country.
+        </p>
+     <p style="color: white">Through 5 kinds of sports game, two universities have got closer and lead college sports in Korea.</p>
     </div>
-    <div class="text container">
-        <table class="ui celled table">
+
+    <div class="text container" style="width:80%; margin:auto; margin-top: 4em; ">
+        <table class="ui celled inverted table" style="font-size:0.9em">
             <thead>
             <tr>
                 <th>연도</th>
-                <th>야구_고대</th>
-                <th>야구_연대</th>
-                <th>야구_결과</th>
+                <th>야구(고)</th>
+                <th>야구(연)</th>
+                <th>야구(결)</th>
                 <th>농구_고대</th>
                 <th>농구_연대</th>
                 <th>농구_결과</th>
@@ -70,11 +81,7 @@
                     <td>{{ score.total_k }}</td>
                     <td>{{ score.total_tie }}</td>
                     <td>{{ score.total_y }}</td>
-                    {% if "승" in score.total_r %}
-                        <td class="positive"><i class="icon checkmark"></i> {{ score.total_r }}</td>
-                    {% else %}
-                        <td>{{ score.total_r }}</td>
-                    {% endif %}
+                    <td>{{ score.total_r }}</td>
                 </tr>
             {% endfor %}
             </tbody>
