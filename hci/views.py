@@ -3,6 +3,10 @@ import json
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import CheerioSong,CheerioDance,Score,Match
+from django.conf import settings
+from pytz import timezone
+
+
 # Create your views here.
 
 def song_list(request) :
@@ -31,7 +35,8 @@ def main_data(request):
             'name_kr': match.name_kr,
             'name_en': match.name_en,
             'score_kr': match.score_kr,
-            'score_ys': match.score_ys
+            'score_ys': match.score_ys,
+            'updated_time': match.updated_titme.isoformat(),
         })
     result = json.dumps(result)
 

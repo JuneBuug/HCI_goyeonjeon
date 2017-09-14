@@ -29,11 +29,11 @@
         <!-- 경기명 상단 -->
         <div class="ui inverted statistic" style="display: flex; justify-content: center;">
             {% if forloop.counter0 == 0 %}
-                <div style="display: flex; flex-direction: row; ">
-                <p style="color: white" >현재 경기</p>
-                <button class="ui inverted yellow button" style="width: 16%; height: 10%; margin-left: 2%; font-size: 0.8em"> 업데이트
-                </button>
-                </div>
+                <div class="ui raised segment">
+      <a class="ui red ribbon label">업데이트</a>
+      <span>{{ match.updated_titme.month}}월 {{ match.updated_titme.day }}일 {{ match.updated_titme.time }}에 업데이트 된 정보입니다.</span>
+    </div>
+
             {% endif %}
             <div class="text value" style="display: flex; flex-direction: column; justify-content: center;">
                 {{ match.name_kr }}
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="ui inverted statistics" style="display: flex;flex-direction: row; justify-content: center;">
+        <div class="ui inverted statistics" style="display: flex; flex-direction: row; justify-content: center;">
             <div class="ui red inverted two statistic">
                 <div class="value kr">
                     <img src="{% static 'image/ic_korea.jpg' %}" class="ui circular inline image">
@@ -53,6 +53,8 @@
                     고려대
                 </div>
             </div>
+
+            <a class="ui yellow circular label">VS</a>
 
             <div class="ui blue inverted statistic">
                 <div class="value ys">
@@ -76,7 +78,7 @@
     $(document).ready(function(){
 
     });
-	$(".yellow").click(function() {
+	$(".ribbon").click(function() {
 		$.ajax({
 			dataType: "json",
 			url: "{% url 'hci:main_data'%}"
@@ -101,20 +103,30 @@
 
                 $(".kr").each(function (index) {
                     if (i === index) {
-                        $(this).html('<img src="static/image/ic_korea.jpg" class="ui circular inline image">'+data[i].score_kr)
+                        $(this).html('<img src="static/image/ic_korea.jpg" class="ui circular inline image">\n' +
+                            '                    '+data[i].score_kr)
                     }
                 });
 
                 $(".ys").each(function (index) {
                     if (i === index) {
-                        $(this).html('<img src="static/image/ic_yonsei.png" class="ui circular inline image">'+data[i].score_ys)
+                        $(this).html('<img src="static/image/ic_yonsei.png" class="ui circular inline image">\n' +
+                            '                    '+data[i].score_ys)
                     }
                 });
 
+                // 첫번째가 최신 업데이트 된 정보이므로
+
+                var myDateTimeNow = new Date(data[0].updated_time);
+                var ampm = ""
+                if (myDateTimeNow.getHours() < 12) {
+                    ampm = " 오전"
+                }else{
+                    ampm = " 오후"
+                }
+                $("span").html((myDateTimeNow.getMonth() + 1) + "월 " + myDateTimeNow.getDate() + "일 " + myDateTimeNow.getHours() + ":" + myDateTimeNow.getMinutes() + ampm + "에 업데이트 된 정보입니다.")
+
             }
-
-
-
 		}).fail(function() {
 			console.log("Failed fetching data");
 		});
