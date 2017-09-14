@@ -42,3 +42,13 @@ class Score(models.Model) :
 
     def __str__(self):
         return self.year
+
+class Match(models.Model) :
+    name_kr = models.CharField(max_length=24) # 경기 한글명
+    name_en = models.CharField(max_length=64) # 경기 영어명
+    score_kr = models.CharField(max_length=24) # 고려대 점수
+    score_ys = models.CharField(max_length=24) # 연세대 점수
+    updated_titme = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name_kr
