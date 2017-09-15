@@ -9,18 +9,15 @@ https://docs.djangoproject.com/en/1.9/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
+import os
+from os.path import dirname, abspath
 
-try:
-    import os
-    from django.contrib.messages import constants as messages
-    MESSAGE_TAGS = {
-        messages.ERROR: 'danger',
-    }
-except ImportError:
-    pass
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+
+BASE_DIR = dirname(dirname(dirname(abspath(__file__))))
+ROOT = lambda *args: os.path.join(BASE_DIR, *args)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -86,7 +83,8 @@ WSGI_APPLICATION = 'Goyeonjeon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': ROOT('db.sqlite3'),
     }
 }
 
@@ -127,15 +125,19 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_URL = '/media/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = ROOT('staticfiles')
+STATICFILES_DIRS = [
+    ROOT('Goyeonjeon', 'static'),
+]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
 
 try:
-    from django.contrib.messages import constants as messages
+    from django.contrib.messages import constants as messages_constant
     MESSAGE_TAGS = {
-        messages.ERROR: 'danger',
+        messages_constant.ERROR: 'danger',
     }
 except ImportError:
     pass
