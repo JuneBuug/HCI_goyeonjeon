@@ -1,0 +1,30 @@
+{% extends 'hci/base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'container.css' %}">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{% block content %}
+
+    <div class="ui inverted segment second" style="width:80%; margin:auto; margin-top: 4em; padding:10px">
+        <a class="ui red empty circular label"></a>
+        <span style="color: white">404</span>
+        <div class="ui inverted divider"></div>
+        <p style="color: white">표시할 내용이 없습니다.</p>
+    </div>
+
+
+{% endblock %}
+</body>
+</html>

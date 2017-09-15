@@ -3,31 +3,32 @@ import json
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import CheerioSong,CheerioDance,Score,Match
-from django.conf import settings
-from pytz import timezone
+
+from django.shortcuts import get_object_or_404,get_list_or_404
 
 
 # Create your views here.
 
 def song_list(request) :
-    songs = CheerioSong.objects.all()
+    songs = get_list_or_404()(CheerioSong)
+    # songs = CheerioSong.objects.all()
     return render(request,'hci/song_list.html',{'songs': songs})
 
 def dance_list(request) :
-    dances = CheerioDance.objects.all()
+    dances = get_list_or_404()(CheerioDance)
     return render(request,'hci/dance_list.html',{'dances': dances})
 
 def main(request) :
-    matches = Match.objects.all().order_by('updated_titme').reverse()
+    matches = get_list_or_404(Match.objects.order_by('updated_titme').reverse())
     return render(request,'hci/main.html',{'matches':matches})
 
 def history(request) :
-    scores = Score.objects.all()
+    scores = get_list_or_404(Score)
     return render(request,'hci/history.html',{'scores':scores})
 
 
 def main_data(request):
-    matches = Match.objects.all().order_by('updated_titme').reverse()
+    matches = get_list_or_404(Match.objects.order_by('updated_titme').reverse())
     result = []
 
     for match in matches.all():
