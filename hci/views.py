@@ -10,12 +10,12 @@ from django.shortcuts import get_object_or_404,get_list_or_404
 # Create your views here.
 
 def song_list(request) :
-    songs = get_list_or_404()(CheerioSong)
+    songs = get_list_or_404(CheerioSong)
     # songs = CheerioSong.objects.all()
     return render(request,'hci/song_list.html',{'songs': songs})
 
 def dance_list(request) :
-    dances = get_list_or_404()(CheerioDance)
+    dances = get_list_or_404(CheerioDance)
     return render(request,'hci/dance_list.html',{'dances': dances})
 
 def main(request) :
