@@ -11,6 +11,6 @@ DATABASES = { 'default': {
   'ENGINE': 'django.db.backends.sqlite3',
   'NAME': 'ubuntu',
   'USER': 'ubuntu',
-  'PASSWORD': '',
+  'PASSWORD': 'withaskdjango!',
   'HOST': '127.0.0.1', },
 }
