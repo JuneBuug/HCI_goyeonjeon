@@ -1,7 +1,7 @@
 {
   "REPO_URL":"https://github.com/JuneBuug/HCI_goyeonjeon.git",
   "PROJECT_NAME":"Goyeonjeon",
-  "REMOTE_HOST_SSH":"13.124.89.192",
+  "REMOTE_HOST_SSH":"13.124.89.192:22",
   "REMOTE_HOST":"13.124.89.192",
   "REMOTE_USER":"junekim",
   "REMOTE_PASSWORD":"aabb1122"

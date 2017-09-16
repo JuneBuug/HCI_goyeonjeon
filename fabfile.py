@@ -14,16 +14,16 @@ def get_env(setting, envs):
 
 # TODO: Required Fields: REPO_URL, PROJECT_NAME, REMOTE_HOST, REMOTE_PASSWORD, REMOTE_USER @ deploy.json
 
-# developer: chagne this!
+# developer: change this!
 REPO_URL = get_env('REPO_URL', envs)
 PROJECT_NAME = get_env('PROJECT_NAME', envs)
 REMOTE_HOST = get_env('REMOTE_HOST', envs)
 REMOTE_HOST_SSH = get_env('REMOTE_HOST_SSH', envs)
 REMOTE_USER = get_env('REMOTE_USER', envs)
 REMOTE_PASSWORD = get_env('REMOTE_PASSWORD', envs)
-STATIC_ROOT_NAME = 'static_deploy'
+STATIC_ROOT_NAME = 'static'
 STATIC_URL_NAME = 'static'
-MEDIA_ROOT = 'uploads'
+MEDIA_ROOT = 'media'
 
 # TODO: Server Engineer: you should add env.user as sudo user and NOT be root
 env.user = REMOTE_USER
