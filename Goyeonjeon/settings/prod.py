@@ -10,6 +10,6 @@ DATABASES = { 'default': {
   'ENGINE': 'django.db.backends.sqlite3',
   'NAME': 'ubuntu',
   'USER': 'ubuntu',
-  'PASSWORD': 'withaskdjango!',
+  'PASSWORD': '',
   'HOST': '127.0.0.1', },
 }
