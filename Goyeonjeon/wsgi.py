@@ -11,6 +11,5 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Goyeonjeon.settings")
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Goyeonjeon.settings.prod")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Goyeonjeon.settings")
 application = get_wsgi_application()
