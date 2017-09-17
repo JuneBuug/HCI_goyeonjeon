@@ -31,7 +31,7 @@ def main_data(request):
     matches = get_list_or_404(Match.objects.order_by('updated_titme').reverse())
     result = []
 
-    for match in matches.all():
+    for match in matches:
         result.append({
             'name_kr': match.name_kr,
             'name_en': match.name_en,

@@ -30,7 +30,7 @@
             {% if forloop.counter0 == 0 %}
                 <div class="ui raised segment">
       <a class="ui red ribbon label">업데이트</a>
-      <span>{{ match.updated_titme.month}}월 {{ match.updated_titme.day }}일 {{ match.updated_titme.time }}에 업데이트 된 정보입니다.</span>
+      <span class="updated_data">{{ match.updated_titme.month}}월 {{ match.updated_titme.day }}일 {{ match.updated_titme.time }}에 업데이트 된 정보입니다.</span>
     </div>
 
             {% endif %}
@@ -129,7 +129,7 @@
                 }else{
                     ampm = " 오후"
                 }
-                $("span").html((myDateTimeNow.getMonth() + 1) + "월 " + myDateTimeNow.getDate() + "일 " + myDateTimeNow.getHours() + ":" + myDateTimeNow.getMinutes() + ampm + "에 업데이트 된 정보입니다.")
+                $(".updated_data").html((myDateTimeNow.getMonth() + 1) + "월 " + myDateTimeNow.getDate() + "일 " + myDateTimeNow.getHours() + ":" + myDateTimeNow.getMinutes() + ampm + "에 업데이트 된 정보입니다.")
 
             }
 		}).fail(function() {
@@ -137,7 +137,7 @@
 		});
 	})
 
-    if (Date.now() > Date.parse('09/15/2017 06:32:10')) {
+    if (Date.now() > Date.parse('09/23/2017 18:00:00')) {
 	    $(".second").insertAfter(".container.main-image");
     }
 
