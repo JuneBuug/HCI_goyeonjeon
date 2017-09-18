@@ -78,6 +78,10 @@
         <p style="color: white">Post party of Ko-yeon-jeon will be held around
         <span class="ui yellow horizontal label">Shin-chon</span>
         this year.</p>
+        <p style="color: white">고연전 당일 무료 주점 목록(안암)은 다음과 같습니다. <a href="https://www.facebook.com/AnamSASM/?ref=ts&fref=ts"><span class="ui red horizontal label">출처: 안암의 모든 것 페북 페이지</span></a></p>
+        {% for rest in rests %}
+            <p style="color: white"><span class="ui red horizontal label">{{ rest.name }}</span> (후원 : {{ rest.location }})</p>
+        {% endfor %}
     </div>
 {% endblock %}
 {% block javascript %}

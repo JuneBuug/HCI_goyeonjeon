@@ -52,3 +52,11 @@ class Match(models.Model) :
 
     def __str__(self):
         return self.name_kr
+
+
+class Restaurant(models.Model) :
+    name = models.CharField(max_length=24)
+    location = models.CharField(max_length=120)
+
+    def __str__(self):
+        return self.name

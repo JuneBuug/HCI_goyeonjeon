@@ -2,7 +2,7 @@ import json
 
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import CheerioSong,CheerioDance,Score,Match
+from .models import CheerioSong,CheerioDance,Score,Match,Restaurant
 
 from django.shortcuts import get_object_or_404,get_list_or_404
 
@@ -19,8 +19,9 @@ def dance_list(request) :
     return render(request,'hci/dance_list.html',{'dances': dances})
 
 def main(request) :
+    rests = get_list_or_404(Restaurant)
     matches = get_list_or_404(Match.objects.order_by('updated_titme').reverse())
-    return render(request,'hci/main.html',{'matches':matches})
+    return render(request,'hci/main.html',{'matches':matches, 'rests': rests})
 
 def history(request) :
     scores = get_list_or_404(Score)
