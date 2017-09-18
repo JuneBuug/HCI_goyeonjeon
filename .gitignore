@@ -156,8 +156,6 @@ media
 # Data
 envs.json
 deploy.json
-bank_envs.json
-*.json
 uploads/
 static_deploy/
 

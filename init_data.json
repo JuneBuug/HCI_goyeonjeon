@@ -1,0 +1,1594 @@
+[
+{
+  "model": "hci.cheeriosong",
+  "pk": 1,
+  "fields": {
+    "title": "\uc5f0\uc138\uce58\ud0a8",
+    "content": "1. \uc5f0\uc138\uce58\ud0a8 X4\r\n\uc6b0~ \uc6b0~ \uc5f0\uc138\uce58\ud0a8 \ud280\uaca8\uc8fc\uc138\uc694\r\n\r\n2. \uc5f0\uc138\uce58\ud0a8 \ud55c \ub9c8\ub9ac \ud280\uaca8\uc8fc\uc138\uc694\r\n\ubc14\uc0ad\ubc14\uc0ad\ud558\uac8c \ud280\uaca8\uc8fc\uc138\uc694\r\n\uc6b0~ \uc6b0~ \uc5f0\uc138\uce58\ud0a8 \ud280\uaca8\uc8fc\uc138\uc694 X2\r\n\r\n3. \ucd09\ucd09\ud558\uac8c \ucac4\uae43\ud558\uac8c \uaecd\uc9c8\uc740 \ubc14\uc0ad\ud558\uac8c\r\n\ub108\ubb34 \ub9db\uc788\uc5b4 \uc544 \ud658\uc0c1\uc758 \ub9db\r\n\uc544\uc544 \uc544\uc544 \ud55c\ub9c8\ub9ac \ub354 \uba39\uace0 \uc2f6\ub2e4\r\n\r\n\u203b \uad6c\uc131 : 1-2-3-1-\uac04\uc8fc-3-1",
+    "song_url": "http://www.kuleader.net/bbs/bbs_download.php?fname=bbs_file1&Num=1&bbs_data=aWR4PTQ0MDU=||&download=1"
+  }
+},
+{
+  "model": "hci.cheeriosong",
+  "pk": 2,
+  "fields": {
+    "title": "\ubbfc\uc871\uc758 \uc544\ub9ac\uc544",
+    "content": "1. \ud0c0\uc624\ub974\ub294 \uc790\uc720\r\n\ub098\uc544\uac00\ub294 \uc815\uc758\r\n\uc19f\uad6c\uce58\ub294 \uc9c4\ub9ac\r\n\ubbfc\uc871\uc758 \ud798\uc73c\ub85c\r\n\r\n2. \uc790~\uc9c0\ucd95\uc744 \ubc15\ucc28\uace0\r\n\uc790~\ud3ec\ud6a8\ud558\ub77c \uadf8\ub300\r\n*\uc870\uad6d\uc758 \uc601\uc6d0\ud55c \uace0\ub3d9\uc774 \ub418\ub9ac\ub77c\r\n\r\n\u203b \uad6c\uc131 : \uc804\uc8fc-1-2-2-\uac04\uc8fc-1-2-2-*",
+    "song_url": "http://www.kuleader.net/bbs/bbs_download.php?fname=bbs_file1&Num=1&bbs_data=aWR4PTM5Njg=||&download=1"
+  }
+},
+{
+  "model": "hci.cheeriosong",
+  "pk": 3,
+  "fields": {
+    "title": "\ubc43\ub178\ub798_\ub4dd\uc810(Ver.2015)",
+    "content": "1. \ube70\ube70 \ube60\ubc14\ube60 \ube70\ube70 \ube60\ubc14\ube60\r\n\ube70\ube70 \ube60\ubc14 \ube70\ube70 \ube60\ubc14 \ube70\ube70 \ube60\ubc14\ube60\r\n\r\n2. \uc990\uac70\uc6b4 \uace0\uc5f0\uc804 \ub0a0\uc5d0 \uc5f0\ub300\uc0dd \uc6b0\ub294 \uc18c\ub9ac\r\n\uc9c0\uace0 \uac00\ub294 \uc5f0\ub300\uc0dd\uc774 \ucc98\ub7c9\ub3c4 \ud558\uad6c\ub098\r\n\uc5b4\uae30\uc57c \ub514\uc5ec\ucc28 (\uc5b4\uae30\uc5ec\ucc28)\r\n\uc5b4\uae30\uc57c \ub514\uc5ec \uc5b4\uae30 \uc5ec\ucc28\r\n\ubc43\ub180\uc774 \uac00\uc794\ub2e4",
+    "song_url": "http://www.kuleader.net/bbs/bbs_download.php?fname=bbs_file1&Num=1&bbs_data=aWR4PTQ0MTA=||&download=1"
+  }
+},
+{
+  "model": "hci.cheeriosong",
+  "pk": 4,
+  "fields": {
+    "title": "[2015 \ub300\ubc15\uc2e0\uace1] \uc2f1\uae00\ubc99\uae00",
+    "content": "1. \ub108\uc758 \ub208\ube5b\uc740 \uc624\uae00\uc624\uae00\r\n\ub108\uc758 \ub2e4\ub9ac\ub294 \ube44\ud2c0\ube44\ud2c0\r\n\ub108\uc758 \ub9d0\ud22c\ub294 \uc9d5\uae00\uc9d5\uae00\r\n\ub108\uc758 \uc5bc\uad74\uc740 \uc2f1\uae00\ubc99\uae00\r\n\r\n2. (\uc2f1\uae00! \uc2f1\uae00\ubc99\uae00!) x2\r\n\r\n3. (\uc9d1\uc5d0\uac00\uc9c0\ub9c8 \uc548\uc554\uc73c\ub85c \uc640\r\n\uc2e0\ucd0c\uace8\ub85c \uac04\ub2e4) x2\r\n\r\n\u203b \uad6c\uc131 : 1-2-1-2-3-3-2-3-2",
+    "song_url": "http://www.kuleader.net/bbs/bbs_download.php?fname=bbs_file1&Num=1&bbs_data=aWR4PTQ0MTE=||&download=1"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 77,
+  "fields": {
+    "title": "Forever - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "HAPcYhLuXqY"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 78,
+  "fields": {
+    "title": "\ubc43\ub178\ub798 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "EJvy2hKtQog"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 79,
+  "fields": {
+    "title": "\ubbfc\uc871\uc758 \uc544\ub9ac\uc544 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "oKGVJe4iMy4"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 80,
+  "fields": {
+    "title": "\uc5d8\ub9ac\uc81c\ub97c \uc704\ud558\uc5ec - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "gv91as-vqoM"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 81,
+  "fields": {
+    "title": "\uc11d\ud0d1 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "qhv6JTy6y3I"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 82,
+  "fields": {
+    "title": "\uace0\ub798\uc0ac\ub0e5 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "S2DCSoFwseI"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 83,
+  "fields": {
+    "title": "\uc138\ud0c0\ub839 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "23SLZzL4lrQ"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 84,
+  "fields": {
+    "title": "\ucda5 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "_FSX1ciuL6Y"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 85,
+  "fields": {
+    "title": "\uc26c\uc787~! - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "A6xVTGgyiPM"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 86,
+  "fields": {
+    "title": "GoGo\uace0\ub300 (2010\ub144 \uc2e0\uace1) - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "a_Cikce6Qio"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 87,
+  "fields": {
+    "title": "\uafc7\uc5b4\ub77c \uc5f0\uc138 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "5JTlhAYvtQA"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 88,
+  "fields": {
+    "title": "\uc80a\uc740\uadf8\ub300 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "KAmYXR8AF3s"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 89,
+  "fields": {
+    "title": "\uccad\ucd98\uc608\ucc2c - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "RvG6Pjh30cM"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 90,
+  "fields": {
+    "title": "\uc0f9\uc824\ub9ac\uc81c - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "XkVmvKwo6Kc"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 91,
+  "fields": {
+    "title": "\ud574\ubcc0\uc73c\ub85c \uac00\uc694 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "qSSm3cSJdns"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 92,
+  "fields": {
+    "title": "IPSELENTI- [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "V73-oUzF94Q"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 93,
+  "fields": {
+    "title": "\uce89\uce89 - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "KKM4JqTgYlE"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 94,
+  "fields": {
+    "title": "\ucd9c\uc0ac\ud45c - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "S1Xx570yE7g"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 95,
+  "fields": {
+    "title": "K.O.R.E.A ( 2012 \ub300\ubc15 \uc2e0\uace1 ) - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "KgXrobzx2No"
+  }
+},
+{
+  "model": "hci.cheeriodance",
+  "pk": 96,
+  "fields": {
+    "title": "Yeah Yeah Yeah - [\uace0\ub824\ub300\ud559\uad50 \uc751\uc6d0\ub2e8 \uc628\ub77c\uc778 \uc751\uc6d0OT]",
+    "video_url": "gTSkY-JMMRk"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 1,
+  "fields": {
+    "year": "1965",
+    "baseball_k": "2",
+    "baseball_y": "3",
+    "baseball_r": "\ud328",
+    "baseketball_k": "89",
+    "baseketball_y": "84",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "4",
+    "ice_y": "4",
+    "ice_r": "\ubb34",
+    "football_k": "3",
+    "football_y": "11",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "1",
+    "soccer_r": "\ubb34",
+    "total_k": "1",
+    "total_tie": "2",
+    "total_y": "2",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 2,
+  "fields": {
+    "year": "1966",
+    "baseball_k": "2",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "91",
+    "baseketball_y": "105",
+    "baseketball_r": "\ud328",
+    "ice_k": "6",
+    "ice_y": "6",
+    "ice_r": "\ubb34",
+    "football_k": "3",
+    "football_y": "0",
+    "football_r": "\uc2b9",
+    "soccer_k": "0",
+    "soccer_y": "2",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 3,
+  "fields": {
+    "year": "1967",
+    "baseball_k": "5",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "87",
+    "baseketball_y": "83",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "6",
+    "ice_y": "2",
+    "ice_r": "\uc2b9",
+    "football_k": "5",
+    "football_y": "3",
+    "football_r": "\uc2b9",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "4",
+    "total_tie": "1",
+    "total_y": "0",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 4,
+  "fields": {
+    "year": "1968",
+    "baseball_k": "4",
+    "baseball_y": "3",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "87",
+    "baseketball_y": "76",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "7",
+    "ice_y": "5",
+    "ice_r": "\uc2b9",
+    "football_k": "16",
+    "football_y": "6",
+    "football_r": "\uc2b9",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "4",
+    "total_tie": "1",
+    "total_y": "0",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 5,
+  "fields": {
+    "year": "1969",
+    "baseball_k": "4",
+    "baseball_y": "3",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "64",
+    "baseketball_y": "64",
+    "baseketball_r": "\ubb34",
+    "ice_k": "6",
+    "ice_y": "5",
+    "ice_r": "\uc2b9",
+    "football_k": "3",
+    "football_y": "5",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "1",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 6,
+  "fields": {
+    "year": "1970",
+    "baseball_k": "1",
+    "baseball_y": "1",
+    "baseball_r": "\ubb34",
+    "baseketball_k": "71",
+    "baseketball_y": "79",
+    "baseketball_r": "\ud328",
+    "ice_k": "9",
+    "ice_y": "4",
+    "ice_r": "\uc2b9",
+    "football_k": "6",
+    "football_y": "8",
+    "football_r": "\ud328",
+    "soccer_k": "3",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 7,
+  "fields": {
+    "year": "1973",
+    "baseball_k": "6",
+    "baseball_y": "4",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "62",
+    "baseketball_y": "64",
+    "baseketball_r": "\ud328",
+    "ice_k": "4",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "13",
+    "football_y": "3",
+    "football_r": "\uc2b9",
+    "soccer_k": "2",
+    "soccer_y": "1",
+    "soccer_r": "\uc2b9",
+    "total_k": "4",
+    "total_tie": "0",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 8,
+  "fields": {
+    "year": "1974",
+    "baseball_k": "6",
+    "baseball_y": "5",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "87",
+    "baseketball_y": "83",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "5",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "16",
+    "football_y": "12",
+    "football_r": "\uc2b9",
+    "soccer_k": "1",
+    "soccer_y": "1",
+    "soccer_r": "\ubb34",
+    "total_k": "4",
+    "total_tie": "1",
+    "total_y": "0",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 9,
+  "fields": {
+    "year": "1976",
+    "baseball_k": "3",
+    "baseball_y": "3",
+    "baseball_r": "\ubb34",
+    "baseketball_k": "67",
+    "baseketball_y": "90",
+    "baseketball_r": "\ud328",
+    "ice_k": "3",
+    "ice_y": "9",
+    "ice_r": "\ud328",
+    "football_k": "6",
+    "football_y": "6",
+    "football_r": "\ubb34",
+    "soccer_k": "1",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "1",
+    "total_tie": "2",
+    "total_y": "2",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 10,
+  "fields": {
+    "year": "1977",
+    "baseball_k": "2",
+    "baseball_y": "6",
+    "baseball_r": "\ud328",
+    "baseketball_k": "86",
+    "baseketball_y": "86",
+    "baseketball_r": "\ubb34",
+    "ice_k": "4",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "7",
+    "football_y": "8",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "1",
+    "total_tie": "2",
+    "total_y": "2",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 11,
+  "fields": {
+    "year": "1978",
+    "baseball_k": "1",
+    "baseball_y": "2",
+    "baseball_r": "\ud328",
+    "baseketball_k": "70",
+    "baseketball_y": "72",
+    "baseketball_r": "\ud328",
+    "ice_k": "4",
+    "ice_y": "2",
+    "ice_r": "\uc2b9",
+    "football_k": "10",
+    "football_y": "4",
+    "football_r": "\uc2b9",
+    "soccer_k": "0",
+    "soccer_y": "1",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "0",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 12,
+  "fields": {
+    "year": "1979",
+    "baseball_k": "4",
+    "baseball_y": "1",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "80",
+    "baseketball_y": "80",
+    "baseketball_r": "\ubb34",
+    "ice_k": "3",
+    "ice_y": "4",
+    "ice_r": "\ud328",
+    "football_k": "39",
+    "football_y": "16",
+    "football_r": "\uc2b9",
+    "soccer_k": "1",
+    "soccer_y": "3",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 13,
+  "fields": {
+    "year": "1981",
+    "baseball_k": "0",
+    "baseball_y": "3",
+    "baseball_r": "\ud328",
+    "baseketball_k": "77",
+    "baseketball_y": "76",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "5",
+    "ice_y": "6",
+    "ice_r": "\ud328",
+    "football_k": "12",
+    "football_y": "14",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "1",
+    "total_tie": "1",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 14,
+  "fields": {
+    "year": "1982",
+    "baseball_k": "3",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "80",
+    "baseketball_y": "81",
+    "baseketball_r": "\ud328",
+    "ice_k": "6",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "16",
+    "football_y": "21",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 15,
+  "fields": {
+    "year": "1984",
+    "baseball_k": "6",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "57",
+    "baseketball_y": "51",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "7",
+    "ice_r": "\ud328",
+    "football_k": "12",
+    "football_y": "22",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "2",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "0",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 16,
+  "fields": {
+    "year": "1985",
+    "baseball_k": "1",
+    "baseball_y": "5",
+    "baseball_r": "\ud328",
+    "baseketball_k": "61",
+    "baseketball_y": "65",
+    "baseketball_r": "\ud328",
+    "ice_k": "2",
+    "ice_y": "11",
+    "ice_r": "\ud328",
+    "football_k": "0",
+    "football_y": "19",
+    "football_r": "\ud328",
+    "soccer_k": "4",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "1",
+    "total_tie": "0",
+    "total_y": "4",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 17,
+  "fields": {
+    "year": "1986",
+    "baseball_k": "4",
+    "baseball_y": "2",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "25",
+    "baseketball_y": "21",
+    "baseketball_r": "\ubb34",
+    "ice_k": "4",
+    "ice_y": "6",
+    "ice_r": "\ud328",
+    "football_k": "0",
+    "football_y": "3",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "1",
+    "total_tie": "2",
+    "total_y": "2",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 18,
+  "fields": {
+    "year": "1987",
+    "baseball_k": "11",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "67",
+    "baseketball_y": "64",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "5",
+    "ice_y": "4",
+    "ice_r": "\uc2b9",
+    "football_k": "3",
+    "football_y": "25",
+    "football_r": "\ud328",
+    "soccer_k": "2",
+    "soccer_y": "3",
+    "soccer_r": "\ud328",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 19,
+  "fields": {
+    "year": "1988",
+    "baseball_k": "3",
+    "baseball_y": "4",
+    "baseball_r": "\ud328",
+    "baseketball_k": "57",
+    "baseketball_y": "69",
+    "baseketball_r": "\ud328",
+    "ice_k": "5",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "10",
+    "football_y": "16",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "3",
+    "soccer_r": "\ud328",
+    "total_k": "1",
+    "total_tie": "0",
+    "total_y": "4",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 20,
+  "fields": {
+    "year": "1989",
+    "baseball_k": "1",
+    "baseball_y": "2",
+    "baseball_r": "\ud328",
+    "baseketball_k": "69",
+    "baseketball_y": "78",
+    "baseketball_r": "\ud328",
+    "ice_k": "8",
+    "ice_y": "5",
+    "ice_r": "\uc2b9",
+    "football_k": "21",
+    "football_y": "18",
+    "football_r": "\uc2b9",
+    "soccer_k": "5",
+    "soccer_y": "2",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 21,
+  "fields": {
+    "year": "1990",
+    "baseball_k": "3",
+    "baseball_y": "2",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "58",
+    "baseketball_y": "74",
+    "baseketball_r": "\ud328",
+    "ice_k": "2",
+    "ice_y": "2",
+    "ice_r": "\ubb34",
+    "football_k": "21",
+    "football_y": "7",
+    "football_r": "\uc2b9",
+    "soccer_k": "3",
+    "soccer_y": "2",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "1",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 22,
+  "fields": {
+    "year": "1991",
+    "baseball_k": "1",
+    "baseball_y": "4",
+    "baseball_r": "\ud328",
+    "baseketball_k": "57",
+    "baseketball_y": "69",
+    "baseketball_r": "\ud328",
+    "ice_k": "2",
+    "ice_y": "4",
+    "ice_r": "\ud328",
+    "football_k": "12",
+    "football_y": "21",
+    "football_r": "\ud328",
+    "soccer_k": "3",
+    "soccer_y": "1",
+    "soccer_r": "\uc2b9",
+    "total_k": "1",
+    "total_tie": "0",
+    "total_y": "4",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 23,
+  "fields": {
+    "year": "1992",
+    "baseball_k": "3",
+    "baseball_y": "1",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "65",
+    "baseketball_y": "67",
+    "baseketball_r": "\ud328",
+    "ice_k": "3",
+    "ice_y": "8",
+    "ice_r": "\ud328",
+    "football_k": "17",
+    "football_y": "11",
+    "football_r": "\uc2b9",
+    "soccer_k": "1",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 24,
+  "fields": {
+    "year": "1993",
+    "baseball_k": "3",
+    "baseball_y": "2",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "60",
+    "baseketball_y": "71",
+    "baseketball_r": "\ud328",
+    "ice_k": "3",
+    "ice_y": "4",
+    "ice_r": "\ud328",
+    "football_k": "7",
+    "football_y": "23",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "2",
+    "total_tie": "0",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 25,
+  "fields": {
+    "year": "1994",
+    "baseball_k": "7",
+    "baseball_y": "0",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "73",
+    "baseketball_y": "59",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "5",
+    "ice_r": "\ud328",
+    "football_k": "7",
+    "football_y": "7",
+    "football_r": "\ubb34",
+    "soccer_k": "2",
+    "soccer_y": "1",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "1",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 26,
+  "fields": {
+    "year": "1995",
+    "baseball_k": "5",
+    "baseball_y": "9",
+    "baseball_r": "\ud328",
+    "baseketball_k": "92",
+    "baseketball_y": "87",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "5",
+    "ice_y": "3",
+    "ice_r": "\uc2b9",
+    "football_k": "15",
+    "football_y": "13",
+    "football_r": "\uc2b9",
+    "soccer_k": "2",
+    "soccer_y": "2",
+    "soccer_r": "\ubb34",
+    "total_k": "3",
+    "total_tie": "1",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 27,
+  "fields": {
+    "year": "1997",
+    "baseball_k": "1",
+    "baseball_y": "1",
+    "baseball_r": "\ubb34",
+    "baseketball_k": "62",
+    "baseketball_y": "68",
+    "baseketball_r": "\ud328",
+    "ice_k": "5",
+    "ice_y": "4",
+    "ice_r": "\uc2b9",
+    "football_k": "9",
+    "football_y": "18",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "2",
+    "soccer_r": "\ud328",
+    "total_k": "1",
+    "total_tie": "1",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 28,
+  "fields": {
+    "year": "1998",
+    "baseball_k": "6",
+    "baseball_y": "2",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "61",
+    "baseketball_y": "58",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "6",
+    "ice_r": "\ud328",
+    "football_k": "23",
+    "football_y": "27",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "2",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "0",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 29,
+  "fields": {
+    "year": "2000",
+    "baseball_k": "1",
+    "baseball_y": "1",
+    "baseball_r": "\ubb34",
+    "baseketball_k": "61",
+    "baseketball_y": "54",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "2",
+    "ice_y": "3",
+    "ice_r": "\ud328",
+    "football_k": "10",
+    "football_y": "22",
+    "football_r": "\ud328",
+    "soccer_k": "2",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 30,
+  "fields": {
+    "year": "2001",
+    "baseball_k": "2",
+    "baseball_y": "9",
+    "baseball_r": "\ud328",
+    "baseketball_k": "98",
+    "baseketball_y": "84",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "3",
+    "ice_r": "\ubb34",
+    "football_k": "20",
+    "football_y": "26",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "1",
+    "soccer_r": "\ud328",
+    "total_k": "1",
+    "total_tie": "1",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 31,
+  "fields": {
+    "year": "2002",
+    "baseball_k": "8",
+    "baseball_y": "3",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "70",
+    "baseketball_y": "73",
+    "baseketball_r": "\ud328",
+    "ice_k": "3",
+    "ice_y": "3",
+    "ice_r": "\ubb34",
+    "football_k": "30",
+    "football_y": "24",
+    "football_r": "\uc2b9",
+    "soccer_k": "4",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "1",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 32,
+  "fields": {
+    "year": "2003",
+    "baseball_k": "3",
+    "baseball_y": "2",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "65",
+    "baseketball_y": "80",
+    "baseketball_r": "\ud328",
+    "ice_k": "2",
+    "ice_y": "3",
+    "ice_r": "\ud328",
+    "football_k": "19",
+    "football_y": "18",
+    "football_r": "\uc2b9",
+    "soccer_k": "0",
+    "soccer_y": "0",
+    "soccer_r": "\ubb34",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 33,
+  "fields": {
+    "year": "2004",
+    "baseball_k": "2",
+    "baseball_y": "1",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "74",
+    "baseketball_y": "88",
+    "baseketball_r": "\ud328",
+    "ice_k": "3",
+    "ice_y": "5",
+    "ice_r": "\ud328",
+    "football_k": "16",
+    "football_y": "13",
+    "football_r": "\uc2b9",
+    "soccer_k": "2",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 34,
+  "fields": {
+    "year": "2005",
+    "baseball_k": "0",
+    "baseball_y": "3",
+    "baseball_r": "\ud328",
+    "baseketball_k": "76",
+    "baseketball_y": "75",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "1",
+    "ice_y": "3",
+    "ice_r": "\ud328",
+    "football_k": "14",
+    "football_y": "21",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "2",
+    "soccer_r": "\ud328",
+    "total_k": "1",
+    "total_tie": "0",
+    "total_y": "4",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 35,
+  "fields": {
+    "year": "2006",
+    "baseball_k": "1",
+    "baseball_y": "6",
+    "baseball_r": "\ud328",
+    "baseketball_k": "66",
+    "baseketball_y": "53",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "2",
+    "ice_y": "3",
+    "ice_r": "\ud328",
+    "football_k": "27",
+    "football_y": "3",
+    "football_r": "\uc2b9",
+    "soccer_k": "1",
+    "soccer_y": "1",
+    "soccer_r": "\ubb34",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 36,
+  "fields": {
+    "year": "2008",
+    "baseball_k": "2",
+    "baseball_y": "9",
+    "baseball_r": "\ud328",
+    "baseketball_k": "74",
+    "baseketball_y": "72",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "1",
+    "ice_y": "1",
+    "ice_r": "\ubb34",
+    "football_k": "21",
+    "football_y": "27",
+    "football_r": "\ud328",
+    "soccer_k": "0",
+    "soccer_y": "1",
+    "soccer_r": "\ud328",
+    "total_k": "1",
+    "total_tie": "1",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 37,
+  "fields": {
+    "year": "2009",
+    "baseball_k": "5",
+    "baseball_y": "4",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "58",
+    "baseketball_y": "74",
+    "baseketball_r": "\ud328",
+    "ice_k": "2",
+    "ice_y": "4",
+    "ice_r": "\ud328",
+    "football_k": "18",
+    "football_y": "18",
+    "football_r": "\ubb34",
+    "soccer_k": "2",
+    "soccer_y": "1",
+    "soccer_r": "\uc2b9",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 38,
+  "fields": {
+    "year": "2010",
+    "baseball_k": "4",
+    "baseball_y": "4",
+    "baseball_r": "\ubb34",
+    "baseketball_k": "65",
+    "baseketball_y": "74",
+    "baseketball_r": "\ud328",
+    "ice_k": "1",
+    "ice_y": "8",
+    "ice_r": "\ud328",
+    "football_k": "20",
+    "football_y": "38",
+    "football_r": "\ud328",
+    "soccer_k": "3",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "1",
+    "total_tie": "1",
+    "total_y": "3",
+    "total_r": "\ud328"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 39,
+  "fields": {
+    "year": "2011",
+    "baseball_k": "1",
+    "baseball_y": "3",
+    "baseball_r": "\ud328",
+    "baseketball_k": "67",
+    "baseketball_y": "61",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "1",
+    "ice_y": "1",
+    "ice_r": "\ubb34",
+    "football_k": "8",
+    "football_y": "5",
+    "football_r": "\uc2b9",
+    "soccer_k": "3",
+    "soccer_y": "1",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "1",
+    "total_y": "1",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 40,
+  "fields": {
+    "year": "2012",
+    "baseball_k": "3",
+    "baseball_y": "1",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "74",
+    "baseketball_y": "60",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "1",
+    "ice_y": "3",
+    "ice_r": "\ud328",
+    "football_k": "13",
+    "football_y": "15",
+    "football_r": "\ud328 ",
+    "soccer_k": "1",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "3",
+    "total_tie": "0",
+    "total_y": "2",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 41,
+  "fields": {
+    "year": "2013",
+    "baseball_k": "1",
+    "baseball_y": "3",
+    "baseball_r": "\ud328",
+    "baseketball_k": "75",
+    "baseketball_y": "62",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "2",
+    "ice_y": "2",
+    "ice_r": "\ubb34",
+    "football_k": "20",
+    "football_y": "17",
+    "football_r": "\uc2b9",
+    "soccer_k": "2",
+    "soccer_y": "3",
+    "soccer_r": "\ud328",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 42,
+  "fields": {
+    "year": "2014",
+    "baseball_k": "6",
+    "baseball_y": "3",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "61",
+    "baseketball_y": "58",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "2",
+    "ice_r": "\uc2b9",
+    "football_k": "33",
+    "football_y": "23",
+    "football_r": "\uc2b9",
+    "soccer_k": "2",
+    "soccer_y": "0",
+    "soccer_r": "\uc2b9",
+    "total_k": "5",
+    "total_tie": "0",
+    "total_y": "0",
+    "total_r": "\uc2b9"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 43,
+  "fields": {
+    "year": "2015",
+    "baseball_k": "7",
+    "baseball_y": "5",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "85",
+    "baseketball_y": "74",
+    "baseketball_r": "\uc2b9",
+    "ice_k": "3",
+    "ice_y": "4",
+    "ice_r": "\ud328",
+    "football_k": "21",
+    "football_y": "24",
+    "football_r": "\ud328",
+    "soccer_k": "1",
+    "soccer_y": "1",
+    "soccer_r": "\ubb34",
+    "total_k": "2",
+    "total_tie": "1",
+    "total_y": "2",
+    "total_r": "\ubb34"
+  }
+},
+{
+  "model": "hci.score",
+  "pk": 44,
+  "fields": {
+    "year": "2016",
+    "baseball_k": "4",
+    "baseball_y": "3",
+    "baseball_r": "\uc2b9",
+    "baseketball_k": "71",
+    "baseketball_y": "71",
+    "baseketball_r": "\ubb34",
+    "ice_k": "3",
+    "ice_y": "3",
+    "ice_r": "\ubb34",
+    "football_k": "26",
+    "football_y": "27",
+    "football_r": "\ud328",
+    "soccer_k": "3",
+    "soccer_y": "1",
+    "soccer_r": " \uc2b9 ",
+    "total_k": "2",
+    "total_tie": "2",
+    "total_y": "1",
+    "total_r": " \uc2b9"
+  }
+},
+{
+  "model": "hci.match",
+  "pk": 1,
+  "fields": {
+    "name_kr": "\uc544\uc774\uc2a4\ud558\ud0a4",
+    "name_en": "iceHockey",
+    "score_kr": "76",
+    "score_ys": "50",
+    "updated_titme": "2017-09-15T05:12:18.209"
+  }
+},
+{
+  "model": "hci.match",
+  "pk": 2,
+  "fields": {
+    "name_kr": "\ub18d\uad6c",
+    "name_en": "baseketball",
+    "score_kr": "30",
+    "score_ys": "22",
+    "updated_titme": "2017-09-15T05:11:12.962"
+  }
+},
+{
+  "model": "hci.match",
+  "pk": 3,
+  "fields": {
+    "name_kr": "\ucd95\uad6c",
+    "name_en": "soccer",
+    "score_kr": "4",
+    "score_ys": "4",
+    "updated_titme": "2017-09-17T19:31:06.442"
+  }
+},
+{
+  "model": "hci.match",
+  "pk": 4,
+  "fields": {
+    "name_kr": "\uc57c\uad6c",
+    "name_en": "baseball",
+    "score_kr": "9",
+    "score_ys": "2",
+    "updated_titme": "2017-09-18T12:26:01.909"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 1,
+  "fields": {
+    "name": "\ub561\uc804\uc9d1",
+    "location": "68\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 3,
+  "fields": {
+    "name": "\uc720\uc790\uc720",
+    "location": "81\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 4,
+  "fields": {
+    "name": "\ud1a0\uc18d\uc8fc\uc810",
+    "location": "82\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 5,
+  "fields": {
+    "name": "\uc720\uac1d\uc8fc",
+    "location": "84\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 6,
+  "fields": {
+    "name": "\uce58\ud0a8\ubc84\uc2a4",
+    "location": "\uacbd\uc601\ub300 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 7,
+  "fields": {
+    "name": "\uc624\uc9d5\uc5b4\ub098\ub77c",
+    "location": "\uc0dd\uba85\uacfc\ud559\ub300 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 8,
+  "fields": {
+    "name": "\ud76c\uc57c",
+    "location": "\uacf5\ub300 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 9,
+  "fields": {
+    "name": "\uc0b0\uc801",
+    "location": "\uac04\ud638\ub300\ud559 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 10,
+  "fields": {
+    "name": "\ub3d9\ub124\ud478\uc90f\uac04",
+    "location": "\ud589\uc815\ud559\uacfc \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 11,
+  "fields": {
+    "name": "\uc601\uc790\uc2a4\uacf1\ucc3d",
+    "location": "\uc0ac\ud68c\ud559\uacfc \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 12,
+  "fields": {
+    "name": "\uc601\ucca0\ubc84\uac70",
+    "location": "\ubcf4\uac74\uacfc\ud559\ub300 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 13,
+  "fields": {
+    "name": "\ub178\ub780\ud1b5\ub2ed",
+    "location": "\uc138\uc885\ucea0\ud37c\uc2a4"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 14,
+  "fields": {
+    "name": "\ub2ed\uc7a1\ub294\ud30c\ub85c",
+    "location": "\uc77c\ubcf8\uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 15,
+  "fields": {
+    "name": "\uc8fc\ub2f9",
+    "location": "\uac15\ub0a8 \uad50\uc6b0\ud68c1"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 16,
+  "fields": {
+    "name": "\ubc30\ub5bc\uae30\uacf1\ucc3d",
+    "location": "72\ud559\ubc88 \ub3d9\ubb38\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 17,
+  "fields": {
+    "name": "\ucd98\ucc9c \ub2ed\uac08\ube44",
+    "location": "\uc5ec\uc790 \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 18,
+  "fields": {
+    "name": "\uace0\ub300\uace0\uae30\uc9d1",
+    "location": "ROTC \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 19,
+  "fields": {
+    "name": "\ucabc\ub07c\ucabc\ub07c",
+    "location": "\uace0\ub300 \uacbd\uc81c\uc778\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 20,
+  "fields": {
+    "name": "\ubcf4\uc2a4\ud134\uc624\ub385",
+    "location": "\ubbf8\uc8fc \uc9c0\ubd80\uc5f0\ud569"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 21,
+  "fields": {
+    "name": "\uc624\uc9d5\uc5b4 \ubc14\ub2e4",
+    "location": "\uace0\ub824 \ub77c\uc774\uc628\uc2a4"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 22,
+  "fields": {
+    "name": "\ub9db\ub2ed\uaf2c",
+    "location": "\uc774\ud559\uc218 \uad50\uc6b0\ud68c\uc7a5\ub2d8"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 23,
+  "fields": {
+    "name": "\ub9cc\ub0a8\uc758 \uad11\uc7a5",
+    "location": "\ud654\ud559\uacfc \uad50\uc6b0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 24,
+  "fields": {
+    "name": "\ud380 \ube44\uc5b4 \ud0b9",
+    "location": "\uc7a5\ud559\uc704\uc6d0\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 25,
+  "fields": {
+    "name": "\uc548\uc554\uc544\uc90c\ub9c8\uce58\ud0a8",
+    "location": "79\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 26,
+  "fields": {
+    "name": "\ubcc4\ub09c\uc8fc\uc810",
+    "location": "\ucd5c\uc601\ud76c(\uc815\uc67852)"
+  }
+},
+{
+  "model": "hci.restaurant",
+  "pk": 27,
+  "fields": {
+    "name": "\ub9db \uac31\uc2a4\ud130",
+    "location": "75\ud559\ubc88 \ub3d9\uae30\ud68c"
+  }
+}
+]
