@@ -73,6 +73,7 @@ def deploy():
     _grant_apache2()
     _grant_sqlite3()
     _restart_apache2()
+    _insert_init_data()
 
 def _put_envs():
     put(os.path.join(PROJECT_DIR, 'envs.json'), '~/{}/envs.json'.format(PROJECT_NAME))
@@ -184,3 +185,10 @@ def _grant_sqlite3():
 
 def _restart_apache2():
     sudo('sudo service apache2 restart')
+
+
+def _insert_init_data():
+    virtualenv_folder = project_folder + '/../.virtualenvs/{}'.format(PROJECT_NAME)
+    run('cd %s && %s/bin/python3 manage.py loaddata init_data.json' % (
+        project_folder, virtualenv_folder
+    ))
