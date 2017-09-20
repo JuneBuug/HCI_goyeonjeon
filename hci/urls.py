@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^history$',views.history, name='history'),
     url(r'^$',views.main,name='main'),
     url(r'^data$',views.main_data,name='main_data'),
+    url(r'^way$',views.way,name='way'),
 ]

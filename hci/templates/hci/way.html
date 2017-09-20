@@ -1,0 +1,68 @@
+{% extends 'hci/base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'semantic/dist/semantic.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'container.css' %}">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="{% static 'semantic/dist/semantic.min.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+{% block content %}
+
+
+
+    <div class="ui inverted segment second" style="width:80%; margin:auto; margin-top: 4em; padding:10px">
+        <div style="margin-bottom: 2em">
+            <span class="ui yellow horizontal label">잠실 야구장 Jamsil Baseball Stadium</span>
+            <div class="container main-image">
+                <img class="ui centered fluid image" src="{% static 'image/map_3.png' %}"
+                     style="width:80%;margin-top:2em;margin-bottom:2em;"/>
+            </div>
+            <p style="color:white"><span class="ui red horizontal label">주변 지하철 Nearest Subway Station</span>: 종합운동장
+                (2호선, 9호선) Sport Complex Station(Line 2, Line 9)</p>
+            <p style="color:white"><span class="ui red horizontal label">주변 버스정류장 Nearest Bus Stop</span>: 잠실주공1단지
+                (24-712) Jamsil Jugong 1 | 종합운동장사거리 (24-143) Sport Complex intersection | 잠실주공1단지 (24-713) Jamsil Jugong
+                1</p>
+        </div>
+        <div style="margin-bottom: 2em">
+            <span class="ui yellow horizontal label">잠실 실내 체육관 Jamsil Arena</span>
+            <div class="container main-image">
+                <img class="ui centered fluid image" src="{% static 'image/map_2.png' %}"
+                     style="width:80%;margin-top:2em;margin-bottom:2em;"/>
+            </div>
+            <p style="color:white"><span class="ui red horizontal label">주변 지하철 Nearest Subway Station</span>: 종합운동장
+                (2호선, 9호선) Sport Complex Station(Line 2, Line 9)</p>
+            <p style="color:white"><span class="ui red horizontal label">주변 버스정류장 Nearest Bus Stop</span>: 잠실주공1단지
+                (24-712) Jamsil Jugong 1 | 종합운동장사거리 (24-143) Sport Complex intersection | 잠실주공1단지 (24-713) Jamsil Jugong
+                1</p>
+        </div>
+        <div style="margin-bottom: 2em">
+            <span class="ui yellow horizontal label">목동 주 경기장 / 아이스링크 Mokdong Main Stadium / Ice Rink</span>
+            <div class="container main-image">
+                <img class="ui centered fluid image" src="{% static 'image/map_1.png' %}"
+                     style="width:80%;margin-top:2em;margin-bottom:2em;"/>
+            </div>
+            <p style="color:white"><span class="ui red horizontal label">주변 지하철 Nearest Subway Station</span>: 오목교
+                역(5호선)에서 도보 10분 거리 위치. 10 min. away from Omokgyo Station(Line 5) by feet</p>
+            <p style="color:white"><span class="ui red horizontal label">주변 버스정류장 Nearest Bus Stop</span>: 양천우체국.목동운동장북문
+                (15-804) YangCheon Post office| 목동5단지C상가.목동운동장북문 (15-151) Mokdong complex 5, Shopping district C </p>
+        </div>
+    </div>
+{% endblock %}
+{% block javascript %}
+{% endblock %}
+</body>
+
+
+
+</html>

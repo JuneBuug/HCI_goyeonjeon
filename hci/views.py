@@ -27,7 +27,8 @@ def history(request) :
     scores = get_list_or_404(Score)
     return render(request,'hci/history.html',{'scores':scores})
 
-
+def way(request):
+    return render(request,'hci/way.html')
 def main_data(request):
     matches = get_list_or_404(Match.objects.order_by('updated_titme').reverse())
     result = []
